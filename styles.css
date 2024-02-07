@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background: url(clound.jpg);
+    height: 100vh;
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(249, 248, 248, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+}
+
+#submitBtn,
+#customBtn {
+    width: 18%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+}
+
+.display {
+    text-align: center;
+}
+
+.wrapper {
+    padding: 30px;
+    background: linear-gradient(to bottom, #2e3192, #1bffff);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    
+}
+
+.wrapper:hover {
+     background: linear-gradient(to top, #1a1f68, #0e99c1); 
+}
+.wrapper h2,
+.wrapper p {
+    font-size: 1.5em;
+}
+
+.wrapper h2 span {
+    font-size: 2em;
+}
+span {
+    font-weight: bold;
+}
+.weather-info {
+    margin-top: 20px;
+    border-radius: 30%;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 30%;
+}
+
